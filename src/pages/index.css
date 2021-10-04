@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+* {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.main {
+    margin: 0 auto;
+    color: #232129;
+    background-color: #fff;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 28px;
+}
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 769px) {
+    .main {
+        padding: 96px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
